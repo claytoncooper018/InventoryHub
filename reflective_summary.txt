@@ -1,0 +1,10 @@
+Reflective summary — how Copilot was used:
+
+I used Microsoft Copilot as an assistant during the InventoryHub project to:
+- Generate boilerplate for the back-end minimal API and front-end components and API helper code.
+- Suggest middleware patterns (request logging, API key auth) for consistent request handling.
+- Help structure consistent JSON responses and DTO validation code.
+- Provide quick examples for fetching and error handling in the React client.
+- Offer small performance-oriented suggestions, like ordering items server-side and limiting response payload.
+
+All Copilot suggestions were reviewed and adapted to meet the assignment requirements and security/simplicity goals.
