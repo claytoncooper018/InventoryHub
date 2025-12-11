@@ -1,19 +1,2 @@
-# InventoryHub API (backend)
-
-Minimal .NET 7 Web API for InventoryHub.
-
-## Run
-1. Install .NET 7 SDK.
-2. From backend folder:
-```
-dotnet restore
-dotnet run
-```
-3. API endpoints:
-- GET /api/products
-- GET /api/products/{id}
-- POST /api/products (requires header X-API-KEY: inventory-secret)
-- PUT /api/products/{id} (requires header X-API-KEY: inventory-secret)
-- DELETE /api/products/{id} (requires header X-API-KEY: inventory-secret)
-
-Responses are structured JSON: `{ success: bool, data: ..., count: ... }`
+# Project summary (API backend)
+InventoryHub API is a minimal .NET 7 backend built to manage product inventory through a clean set of REST API endpoints. It supports retrieving, creating, updating, and deleting products with structured JSON responses and basic API-key authentication for protected routes.
